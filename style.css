@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    background-color:rgb(24, 22, 22);
+
+}
+
+.navbar{
+    background-color: rgb(14, 11, 11);
+    display: flex;
+    border-bottom: solid 2px grey;
+}
+
+.form-control{
+    margin-left: 20px;
+    background-color:rgb(86, 86, 86);
+    border: black;
+    width: 320px;
+    height: 50px;
+}
+.offcanvas-body{
+    margin-left: 20px;
+    
+}
+.offcanvas{
+    background-color:black;
+    color: black;
+}
+
+.nav-link{
+    color: white;
+    font-size:30px ;
+    font-weight: 700;
+    font-family: 'IBM Plex Sans', sans-serif; 
+    cursor: pointer;
+}
+
+.nav-link:hover{
+    color: orange;
+}
+
+.nav-mdl-img{
+    
+    cursor: pointer;
+
+}
+
+.nav-end-img{
+    
+    cursor: pointer;
+}
+
+/* nav{
+    background-color: transparent !important;
+} */
+#main{
+    background-color: black;
+}
+
+.custom-btn:hover{
+    background-color: orange;
+    color: black !important;
+    border: black;
+}
+.custom-pointer{
+    cursor: pointer;
+    
+}
+ul.horizontal-list {
+    list-style-type: none;
+    margin-left: 0;
+    padding: 0;
+    display: flex; /* Use flexbox to achieve horizontal layout */
+}
+.orange-hover:hover {
+    color: orange !important; /* Change text color to orange on hover */
+}
+
+
+
